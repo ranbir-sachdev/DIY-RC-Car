@@ -1,0 +1,51 @@
+int in1 = 4;
+int in2 = 5;
+int in3 = 6;
+int in4 = 7;
+
+void setup() {
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+
+  // Begin Serial communication
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available()) {
+    char command = Serial.read();
+
+    if (command == 'F') { // Forward
+      digitalWrite(in1, HIGH);
+      digitalWrite(in2, LOW);
+      digitalWrite(in3, HIGH);
+      digitalWrite(in4, LOW);
+    } 
+    else if (command == 'B') { // Backward
+      digitalWrite(in1, LOW);
+      digitalWrite(in2, HIGH);
+      digitalWrite(in3, LOW);
+      digitalWrite(in4, HIGH);
+    } 
+    else if (command == 'L') { // Left
+      digitalWrite(in1, LOW);
+      digitalWrite(in2, HIGH);
+      digitalWrite(in3, HIGH);
+      digitalWrite(in4, LOW);
+    } 
+    else if (command == 'R') { // Right
+      digitalWrite(in1, HIGH);
+      digitalWrite(in2, LOW);
+      digitalWrite(in3, LOW);
+      digitalWrite(in4, HIGH);
+    } 
+    else if (command == 'S') { // Stop
+      digitalWrite(in1, LOW);
+      digitalWrite(in2, LOW);
+      digitalWrite(in3, LOW);
+      digitalWrite(in4, LOW);
+    }
+  }
+}
