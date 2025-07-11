@@ -1,0 +1,22 @@
+const int IN1 = 4; // Left motor IN1 (L293D pin 2)
+const int IN2 = 5; // Left motor IN2 (L293D pin 7)
+const int IN3 = 6; // Right motor IN3 (L293D pin 10)
+const int IN4 = 7; // Right motor IN4 (L293D pin 15)
+
+void setup() {
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+
+  // LEFT motor forward
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+
+  // RIGHT motor forward
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+
+void loop() {
+}
