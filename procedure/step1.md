@@ -1,0 +1,2 @@
+![Powered the l298n and the Arduino Uno R3 using the Lipo battery by using the cable adapters and plugging it into the DC barrel jack. Then used Arduino pin "VIN" to connect to 12V on the l298n. Finally connected both GND of Arduino Uno R3 and l298n.](Powering l298n and Arduino Uno R3 Using LiPo Battery.jpeg)
+
