@@ -1,3 +1,1 @@
--Plugged the DC motors as outputs on the l298n motor driver (OUT1-OUT4). 
--Also hooked up the input wires on the l298n to the arduino digital pins so that I could control the motors.
--Removed the jumper caps on the ENA and ENB pins in order to control the speed of the motors. Then connected those pins to the arduino digital pins for control.
+-Plugged the DC motors as outputs on the l298n motor driver (OUT1-OUT4). Also hooked up the input wires on the l298n to the arduino digital pins so that I could control the motors. Removed the jumper caps on the ENA and ENB pins in order to control the speed of the motors. Then connected those pins to the arduino digital pins for control.
