@@ -1,0 +1,1 @@
+Cut out a rectangular piece of cardboard and layed out the components on it. Gave me the final picture of what it should sort of look like. However, I didn't include the battery in the layout. 
