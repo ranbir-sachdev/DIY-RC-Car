@@ -8,4 +8,4 @@ Contents:
 * `step2.md`: Connecting the L298N motor driver.
 * (Add other `.md` files you have here with brief descriptions)
 
-This documentation was developed as part of the `feature-poweringwheels` branch, which was merged into `main` on [Current Date, e.g., July 29, 2025].
+This documentation was developed as part of the `feature-poweringwheels` branch, which was merged into `main` on [July 29, 2025].
