@@ -1,0 +1,1 @@
+Layed out the connected components (l298n and arduino along with the motors) just to envision and see how it would briefly layout.
