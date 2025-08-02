@@ -1,0 +1,1 @@
+Made a sketch of where the components should go. Put it on birch plywood and cut the exact same shape (6.5" x 11.5"). Marked where the components should go onto the wood. 
