@@ -1,3 +1,5 @@
+//Reversed wheel rotation (goes forward with the controlled wheel speed in the front of the car) for 3 seconds
+
 // Rear Motor Pins (L298N #1)
 const int IN1_rear = 7;
 const int IN2_rear = 8;
@@ -27,20 +29,20 @@ void setup() {
   pinMode(IN4_front, OUTPUT);
 
   // Rear motors direction
-  digitalWrite(IN1_rear, LOW);
-  digitalWrite(IN2_rear, HIGH);
-  digitalWrite(IN3_rear, HIGH);
-  digitalWrite(IN4_rear, LOW);
+  digitalWrite(IN1_rear, HIGH);
+  digitalWrite(IN2_rear, LOW);
+  digitalWrite(IN3_rear, LOW);
+  digitalWrite(IN4_rear, HIGH);
 
   // Rear motors speed (0–255)
   analogWrite(ENA_rear, 255); // Rear Left Motor
   analogWrite(ENB_rear, 255); // Rear Right Motor
 
   // Front motors direction (full speed always with jumpers)
-  digitalWrite(IN1_front, HIGH);
-  digitalWrite(IN2_front, LOW);
-  digitalWrite(IN3_front, LOW);
-  digitalWrite(IN4_front, HIGH);
+  digitalWrite(IN1_front, LOW);
+  digitalWrite(IN2_front, HIGH);
+  digitalWrite(IN3_front, HIGH);
+  digitalWrite(IN4_front, LOW);
 
   delay(3000);
 
